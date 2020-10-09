@@ -1,3 +1,5 @@
+
+require 'pry'
 class Owner
   
 attr_reader :name, :species
@@ -64,5 +66,7 @@ attr_reader :name, :species
     end
   end
   
-  
+  def list_pets
+    binding.pry
+  end
 end
