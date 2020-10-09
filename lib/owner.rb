@@ -52,4 +52,7 @@ attr_reader :name, :species
     self.dogs.each {|dog| dog.mood = "happy"}
   end
   
+  def feed_cats
+    self.cats.each {|cat| cat.mood = "happy"}
+  end
 end
