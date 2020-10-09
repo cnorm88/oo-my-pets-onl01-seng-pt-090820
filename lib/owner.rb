@@ -29,6 +29,7 @@ attr_accessor :pets
   end
   
   def cats
+    return Cat.all
   end
   
 end
