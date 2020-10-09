@@ -34,4 +34,10 @@ attr_reader :name, :species
     end
   end
   
+   def dogs
+    Dog.all.select do |dog|
+      dog.owner == self
+    end
+  end
+  
 end
