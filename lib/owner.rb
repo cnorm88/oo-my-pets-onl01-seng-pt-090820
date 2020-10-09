@@ -48,4 +48,7 @@ attr_reader :name, :species
     Dog.new(name, self)
   end
   
+  def walk_dogs
+  end
+  
 end
