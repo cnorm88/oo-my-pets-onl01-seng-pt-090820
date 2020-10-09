@@ -40,4 +40,8 @@ attr_reader :name, :species
     end
   end
   
+  def buy_cat
+    
+  end
+  
 end
