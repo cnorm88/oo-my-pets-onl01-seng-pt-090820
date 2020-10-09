@@ -29,8 +29,8 @@ attr_reader :name, :species
   end
   
   def cats
-    Song.all.select do |song|
-      song.artist == self
+    Cat.all.select do |cat|
+      cat.owner == self
   end
   
 end
