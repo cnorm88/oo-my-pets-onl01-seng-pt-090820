@@ -67,6 +67,5 @@ attr_reader :name, :species
   end
   
   def list_pets
-    binding.pry
   end
 end
